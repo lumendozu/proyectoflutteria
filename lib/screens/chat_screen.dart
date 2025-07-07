@@ -124,7 +124,7 @@ class _ChatScreenState extends State<ChatScreen> with TickerProviderStateMixin {
                 ),
               ),
               Text(
-                'Asistente inteligente',
+                'Asistente casi inteligente',
                 style: TextStyle(
                   fontSize: 12,
                   color: (state.isDark ? Colors.white : Colors.black).withOpacity(0.7),

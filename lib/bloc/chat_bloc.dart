@@ -43,7 +43,7 @@ class ChatState {
 
 // Bloc
 class ChatBloc extends Bloc<ChatEvent, ChatState> {
-  final String apiKey = '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';
+  final String apiKey = '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';
   final String model = 'mistralai/mistral-7b-instruct';
 
   ChatBloc() : super(ChatState(messages: [], isDark: true)) {
